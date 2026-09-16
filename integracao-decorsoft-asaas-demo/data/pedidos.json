@@ -1,0 +1,6 @@
+[
+    {"codigo": 1001, "cliente": "Cliente Exemplo A", "status": "APROVADO", "valorCentavos": 249990},
+    {"codigo": 1002, "cliente": "Cliente Exemplo B", "status": "APROVADO", "valorCentavos": 87550},
+    {"codigo": 1003, "cliente": "Cliente Exemplo C", "status": "ORCAMENTO", "valorCentavos": 120000},
+    {"codigo": 1004, "cliente": "Cliente Exemplo D", "status": "CANCELADO", "valorCentavos": 65000}
+]
