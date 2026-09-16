@@ -121,9 +121,3 @@ O workflow incluído está configurado para verificar sintaxe, testes e a demons
 Esta versão implementa **uma simulação local do fluxo de pedidos e links**. Não inclui integração HTTP, pagamentos, emissão de boletos/Pix, webhooks, sincronização de situação financeira, autenticação de usuários ou interface web. O armazenamento em JSON serve à demonstração; não é uma solução de persistência de produção nem garante recuperação após interrupção durante uma escrita.
 
 Uma evolução possível seria implementar adaptadores HTTP com testes de contrato em ambiente de homologação. Essa etapa não está implementada. A demonstração não carrega `.env` nem oferece uma opção para acessar produção.
-
-## Sobre a versão pública
-
-Os exemplos foram criados para este repositório. Não é necessário copiar qualquer arquivo do projeto privado para executar a demonstração. A pasta pública deve ser publicada como um repositório próprio, sem incluir a pasta do projeto original.
-
-É possível apresentar o comando `demo` e seus resultados em um vídeo ou postagem, identificando claramente que são dados simulados. Não há métricas de economia de tempo ou resultados de produção medidos nesta versão.
